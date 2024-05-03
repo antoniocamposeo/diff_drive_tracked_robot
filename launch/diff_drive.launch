@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="diff_drive_node" pkg="diff_drive_control" type="diff_drive_control.py" output="screen"/>
+ 
+  <!-- <node pkg="rosbag" type="record" name="rosbag_record"
+       args="record -o record_test.bag /R1/pose_leader /R2/pose_leader /R3/pose_leader /R4/pose_leader /path_leader /tb3_0/cmd_vel /tb3_1/cmd_vel /tb3_2/cmd_vel /tb3_3/cmd_vel"/> -->
+
+  </launch>
